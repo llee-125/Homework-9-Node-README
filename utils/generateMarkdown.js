@@ -9,7 +9,7 @@ function generateMarkdown(data) {
 ![GitHub forks](https://img.shields.io/github/forks/scottydocs/README-template.md?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social)
 
-Project name is a \`<utility/tool/feature>\` that allows \`<insert_target_audience>\` to do \`<action/task_it_does>\`.
+Project "${data.title}" allows ${data.audience} to ${data.desc}.
 
 Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
 
@@ -60,9 +60,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Thanks to the following people who have contributed to this project:
 
-* [@scottydocs](https://github.com/scottydocs) 📖
-* [@cainwatson](https://github.com/cainwatson) 🐛
-* [@calchuchesta](https://github.com/calchuchesta) 🐛
+# ${data.email}
 
 You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
 

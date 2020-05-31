@@ -1,16 +1,3 @@
-// const questions = [
-
-// ];
-
-// function writeToFile(fileName, data) {
-// }
-
-// function init() {
-
-// }
-
-// init();
-
 var inquirer = require("inquirer");
 var fs = require("fs");
 
@@ -20,6 +7,21 @@ inquirer
   .prompt([
     {
       type: "input",
+      name: "userName",
+      message: "What is your GitHub username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email?",
+    },
+    {
+      type: "input",
+      name: "url",
+      message: "What is the URL to your project?",
+    },
+    {
+      type: "input",
       name: "title",
       message: "What is your project title?",
     },
@@ -27,6 +29,31 @@ inquirer
       type: "input",
       name: "desc",
       message: "What is the description of your project?",
+    },
+    {
+      type: "input",
+      name: "table",
+      message: "What is your project Table of Contents?",
+    },
+    {
+      type: "input",
+      name: "audience",
+      message: "Who is the audience for this project?",
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "What commands should I run to install dependencies?",
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "What commands should I run to run tests?",
+    },
+    {
+      type: "input",
+      name: "repo",
+      message: "What does the user need to know about using repo?",
     },
   ])
   .then(function (data) {
@@ -38,18 +65,3 @@ inquirer
       }
     });
   });
-// }]);
-
-//   At least one badge
-// Project title
-// Description
-// Table of Contents
-// Installation
-// Usage
-// License
-// Contributing
-// Tests
-// Questions
-
-// User GitHub profile picture
-// User GitHub email]
