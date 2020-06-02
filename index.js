@@ -1,14 +1,15 @@
-var inquirer = require("inquirer");
-var fs = require("fs");
-var axios = require("axios");
+const inquirer = require("inquirer");
+const fs = require("fs");
+const axios = require("axios");
 
-var generate = require("./utils/generateMarkdown");
+const generate = require("./utils/generateMarkdown");
+const api = require("./utils/api");
 
 inquirer
   .prompt([
     {
-      type: axios,
-      name: "userName",
+      type: api,
+      name: "username",
       message: "What is your GitHub username?",
     },
     {
