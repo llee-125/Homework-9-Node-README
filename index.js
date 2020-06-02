@@ -1,12 +1,13 @@
 var inquirer = require("inquirer");
 var fs = require("fs");
+var axios = require("axios");
 
 var generate = require("./utils/generateMarkdown");
 
 inquirer
   .prompt([
     {
-      type: "input",
+      type: axios,
       name: "userName",
       message: "What is your GitHub username?",
     },
