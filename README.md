@@ -1,51 +1,54 @@
 
-# 
+# DIVERSITY SCHOLAR BOOM
 
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
-![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md)
-![GitHub stars](https://img.shields.io/github/stars/scottydocs/README-template.md?style=social)
-![GitHub forks](https://img.shields.io/github/forks/scottydocs/README-template.md?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social)
+![GitHub repo Travis] (https://img.shields.io/travis/com/llee-125/homework-9-Node-README)
+![GitHub followers] (https://img.shields.io/github/followers/llee-125?label=README&style=plastic)
+![GitHub Release Date](https://img.shields.io/github/release-date/llee-125/Homework-9-Node-README?style=plastic)
 
-Project "" allows  to .
+Project: "DIVERSITY SCHOLAR BOOM" 
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+## Table of Contents
+* Badges
+* Project Title
+* Description
+* Prerequisites
+* Installation
+* Tests
+* Dependencies
+* Usage
+* Contribution
+* Contact
+* License
+
+## Introduction
+"DIVERSITY SCHOLAR BOOM" allows Lawyers to Keker, Van Nest & Peters awarded $75,000 in scholarship funding to four Diversity Scholar recipients—three of which are Berkeley Law students. Susana Herrera ’22, Yongbin Chang ’22, and Erica Peña ’22 were chosen for showing “incredible promise in the legal field” and an interest in practicing complex litigation in the Bay Area. . 
+
+"https://www.law.berkeley.edu/"
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+Before you begin, ensure you:
+* Are using the most recent version of Chrome. (https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjw8df2BRA3EiwAvfZWaNiMlImsL9eLBJRi2x4GrdSc2uhLrD9Yc-KWu6bB8WrewmtjIabT_RoCRyUQAvD_BwE&gclsrc=aw.ds)
+* Are using an updated windows or mac machine. 
+* Have read this README in its entirety.
 
-## Installing 
+"* Tests?" 
 
-To install , follow these steps:
 
-Linux and macOS:
-```
-<install_command>
-```
+## Installation
 
-Windows:
-```
-<install_command>
-```
-## Using <project_name>
+Ensure the following packages are installed within the folder of your project:
+* Package.JSON: npm init -y (include -y so you don't have to answer all the questions).
+* npm install. 
 
-To use <project_name>, follow these steps:
+"*dependencies?" 
 
-```
-<usage_example>
-```
 
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
+## Dependencies
 
-## Contributing to <project_name>
-<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
-To contribute to <project_name>, follow these steps:
+After installing the above packages (listed in Installations), view packages.json and ensure all packages have been installed for all dependencies.
+
+## Contributing to "DIVERSITY SCHOLAR BOOM" README:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
@@ -59,15 +62,16 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Thanks to the following people who have contributed to this project:
 
-# 
+llee-125
 
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
+llee@berkeley.edu 
+ 
+
 
 ## Contact
 
 If you want to contact me you can reach me at <your_email@address.com>.
 
 ## License
-<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: [<license_name>](<link>).
+This project is licensed under the terms of the MIT license https://github.com/fatalxiao/js-markdown/blob/master/LICENSE.

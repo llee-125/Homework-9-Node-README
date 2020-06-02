@@ -34,11 +34,6 @@ inquirer
     },
     {
       type: "input",
-      name: "table",
-      message: "What is your project Table of Contents?",
-    },
-    {
-      type: "input",
       name: "audience",
       message: "Who is the audience for this project?",
     },
