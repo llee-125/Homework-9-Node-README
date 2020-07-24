@@ -3,12 +3,12 @@ const fs = require("fs");
 const axios = require("axios");
 
 const generate = require("./utils/generateMarkdown");
-const api = require("./utils/api");
+// const api = require("./utils/api");
 
 inquirer
   .prompt([
     {
-      type: api,
+      type: "input",
       name: "username",
       message: "What is your GitHub username?",
     },
